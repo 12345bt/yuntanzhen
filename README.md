@@ -19,14 +19,14 @@
    
 【克隆代码】:
 ```
-git clone https://github.com/tenyue/ServerStatus.git
+git clone https://github.com/12345bt/yuntanzhen.git
 ```
 
-【服务端配置】（服务端程序在ServerStatus/web下）:  
+【服务端配置】（服务端程序在yuntanzhen/web下）:  
           
 一、生成服务端程序              
 ```
-cd ServerStatus/server
+cd yuntanzhen/server
 make
 ./sergate
 ```
@@ -49,10 +49,10 @@ make
 }       
 ```
 
-三、拷贝ServerStatus/status到你的网站目录        
+三、拷贝yuntanzhen/status到你的网站目录        
 例如：
 ```
-sudo cp -r ServerStatus/web/* /home/wwwroot/default
+sudo cp -r yuntanzhen/web/* /home/wwwroot/default
 ```
 
 四、运行服务端：             
@@ -61,7 +61,7 @@ web-dir参数为上一步设置的网站根目录，务必修改成自己网站�
 ./sergate --config=config.json --web-dir=/home/wwwroot/default   
 ```
 
-【客户端配置】（客户端程序在ServerStatus/clients下）：          
+【客户端配置】（客户端程序在yuntanzhen/clients下）：          
 客户端有两个版本，client-linux为普通linux，client-psutil为跨平台版，普通版不成功，换成跨平台版即可。        
 
 一、client-linux版配置：       
